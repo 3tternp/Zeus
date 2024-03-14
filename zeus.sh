@@ -141,7 +141,7 @@ echo -e "${yw}INFO${xx}: AWS-CLI is installed on the system." | tee -a reports/r
 echo -e "____________________________________________"
 echo -en '\n'
 else
-apt install -y python-pip
+apt install -y python3-pip
 fi
 echo ""
 fi
